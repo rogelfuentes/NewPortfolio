@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+
+                <h1>Type one of the options bilow:<span id="game"></span></h1>
+                <ul>R: Rock</ul>
+                <ul>P: paper</ul>
+                <ul>S: Scissor</ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+
+    let RPSGame = document.getElementById("game");
+    console.log("RPSGame " + RPSGame);
+
+    document.onkeyup = function () {
+        alert("An option has been selected");
+    }
+
+</script>
+
+</html>
