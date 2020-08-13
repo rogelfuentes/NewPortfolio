@@ -1,2 +1,2 @@
-# NewPortfolio
-Designing a new style for my personal portfolio
+# Practice repo
+I'll be reviweing material from the bootcam and recreating the activities in class.
